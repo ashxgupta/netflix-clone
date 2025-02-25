@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300;400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+ul {
+    list-style-type: none; /* Removes bullet points */
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+}
+
+li {
+    text-decoration: underline; /* Adds underline */
+}
+body{
+    background-color: black;
+}
+.line{
+    background-color: rgb(72, 66, 66);
+    height: 5px;
+}
+button{
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+}
+.logo img{
+    width:150px;
+    padding: 20px 10px;
+    
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    z-index: 10;
+}
+.buttons{
+    padding: 20px;
+
+}
+
+.buttons button{
+    padding:10px 30px;
+    border-radius: 5px;
+    border: none;
+    
+}
+
+
+
+.sec1{
+    background-image: url(images/img1.jpg);
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+    height: 644px;
+    position: relative;
+    
+}
+
+.statements{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    flex-direction:column;
+    position: absolute;
+    width:100vw;
+    height: 500px;
+    gap: 23px;
+}
+.big{
+    font-weight: bolder;
+    font-size: 40px;
+     text-align: center;
+}
+.byline1{
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+.byline2{
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+.mail input{
+    font-weight: 400;
+    font-size: 20px;
+    padding:  13px 15px;
+    border-radius: 30px;
+    border:1px solid rgb(109, 107, 107);
+    background-color:black;
+    color: white;
+    
+    
+}
+
+.mail button{
+    font-weight: 400;
+    font-size: 25px;
+    padding:  10px 15px;
+    border-radius: 30px;
+}
+.sec1 .blackbox{
+    position: absolute;
+    height: 644px;
+    width:100%;
+    background-color: black;
+    opacity: 0.7;
+}
+
+.red{
+    background-color: red;
+    border:none;
+    color: white;
+}
+
+.red:hover{
+    background-color: rgb(219, 25, 25);
+}
+.white:hover{
+    background-color:rgb(188, 181, 181)
+}
+
+.sec2{
+    display: flex;
+    width: 80vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    
+}
+
+.tv {
+    display: flex;
+    position: relative;
+}
+
+.tv img {
+    position: relative;
+    z-index: 20; 
+    width: 555px;
+    
+}
+
+.tv video {
+    position: absolute;
+    top: 86px;
+    left: 70px;
+    
+}
+
+
+.text .line1{
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.text .line2{
+    font-size: 24px;
+}
+
+.srcvid2{
+    position: absolute;
+    top: -15px;
+
+}
+
+.faq{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.faqtitle{
+    color: white;
+    font-size: 48px;
+    font-weight: bolder;
+    text-align: center;
+    padding: 20px;
+}
+
+.box{
+    background-color: gray;
+    width:600px;
+}
+
+.faqbox{
+    background: black;
+    color: white;
+}
+
+.box{
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #2d2d2d;
+    margin: 30px auto ;
+    padding: 10px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+   
+}
+
+.faqbox svg {
+    filter: invert(1);
+    padding: 10px;
+}
+
+.box:hover{
+    background-color: rgb(156, 152, 152);
+    
+}
+.restart button {
+    padding:10px 30px;
+    border-radius: 30px;
+    font-weight:bold;
+    font-size: medium;
+    margin: auto;
+   
+}
+.restart .text{
+    text-align: center;
+    color: white;
+    margin: 20px auto;
+}
+
+.restartbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    color:white;
+    font-size: small;
+    font-weight: 100;
+}
+
+.container{
+    display: flex;
+    gap:100px;
+    padding: 10px 200px;
+}
+
+footer .text{
+    padding:  20px 200px;
+}
+
+.footbtn{
+   padding: 20px 200px ;
+}
+
+.footbtn button{
+    margin: 40px 0px;
+    border: none;
+}
+.space{
+    height: 100px;
+}
+
